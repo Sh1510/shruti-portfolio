@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background-color: rgb(123, 25, 214);
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: lavender;
+    font-size: 1.04rem;
+}
+.first{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.first img{
+    width: 60vh;
+    height: 50vh;
+    border: none;
+}
+.first div{
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+.green{
+    color: green;
+}
+.middle{
+    padding: 40px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(238, 232, 232);
+}
+
+.middle h1,.middle p{
+ margin: 0;
+} 
+.middle2{
+    padding: 40px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+.middle2 h1,.middle p{
+ margin: 0;
+} 
+.button{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px ;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color: #333333;
+}
+.button2{
+    padding: 10px 20px ;
+    background-color: white;
+    border:10% black;
+    border-radius: 20px ;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color: #333333;
+}
+footer{
+    background-color: black;
+    margin-top: 50px;
+    padding: 40px 20px;
+    
+}
+.last {
+  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.last .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.last .icon:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
